@@ -4,4 +4,6 @@
 
 `./start.sh`
 
+`./create.sh`
+
 `git clone https://github.com/BrunoEleodoro/FlutterTwitterClone`
