@@ -11,3 +11,4 @@ tasks:
   - command: sh start.sh
   - command: echo Creating...
   - command: sh create.sh
+  - command: chmod -R 777 FlutterTwitterClone/build.sh
