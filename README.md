@@ -1,9 +1,11 @@
 ## Getting started
 
-`chmod -R 777 start.sh`
+chmod -R 777 start.sh
 
-`./start.sh`
+chmod -R 777 create.sh
 
-`./create.sh`
+./start.sh
 
-`git clone https://github.com/BrunoEleodoro/FlutterTwitterClone`
+./create.sh
+
+git clone https://github.com/BrunoEleodoro/FlutterTwitterClone

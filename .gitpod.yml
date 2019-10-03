@@ -2,3 +2,11 @@ vscode:
   extensions:
     - Dart-Code.flutter@3.3.0-beta.4:wCqXa/Ih/LTzfyko19agfQ==
     - Dart-Code.dart-code@3.3.0-beta.4:z+hDckQldFt7W9jYHkgiTQ==
+
+tasks:
+  - command: chmod -R 777 start.sh
+  - command: chmod -R 777 create.sh
+  - command: echo Starting...
+  - command: sh start.sh
+  - command: echo Creating...
+  - command: sh create.sh
