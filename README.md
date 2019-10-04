@@ -13,4 +13,5 @@ git clone https://github.com/BrunoEleodoro/FlutterTwitterClone
 alias flutter="/workspace/FlutterUnicampMiniCurso/flutter/bin/flutter"
 
 git remote rm origin
+
 git remote add origin 
