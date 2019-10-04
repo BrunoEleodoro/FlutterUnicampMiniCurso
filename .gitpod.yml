@@ -5,10 +5,4 @@ vscode:
 
 tasks:
   - command: npm install -g serve
-  - command: chmod -R 777 start.sh
-  - command: chmod -R 777 create.sh
-  - command: echo Starting...
-  - command: sh start.sh
-  - command: echo Creating...
-  - command: sh create.sh
-  - command: chmod -R 777 FlutterTwitterClone/build.sh
+  - command: chmod -R 777 start.sh && chmod -R 777 create.sh && sh start.sh && sh create.sh && chmod -R 777 FlutterTwitterClone/build.sh
