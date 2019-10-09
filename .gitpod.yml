@@ -5,4 +5,5 @@ vscode:
 
 tasks:
   - command: npm install -g serve
+  - command: gp env PATH="$PATH:/workspace/FlutterUnicampMiniCurso/flutter/bin"
   - command: chmod -R 777 start.sh && chmod -R 777 create.sh && sh start.sh && sh create.sh && chmod -R 777 FlutterTwitterClone/build.sh
